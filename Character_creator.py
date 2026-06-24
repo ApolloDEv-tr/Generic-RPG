@@ -13,9 +13,11 @@ elif race_choice == '2':
     print('You have chosen Elf.', 'You have a natural affinity for magic and can cast spells more effectively')
 elif race_choice == '3':
     print('You have chosen Dwarf.', 'You can see in the dark and get more materials from mining.')
-else:
+elif race_choice == '4':
     print('You have chosen Angel.', 'You can fly for a short period of time and can heal yourself and others.')
-
+else:
+    print('Invalid choice. Defaulting to human')
+    
 print('Choose your class:')
 print('1. Warrior')
 print('2. Mage')
@@ -37,10 +39,11 @@ elif class_choice == '3':
 elif class_choice == '4':
     print('You have chosen Archer.', 'You are skilled in ranged combat and have high dexterity.')
     health = 90
-else:
-    print('You have chosen Thief.', 'You are skilled in stealth and are more agile than otehr classes')
+elif print('You have chosen Thief.', 'You are skilled in stealth and are more agile than otehr classes')
     health = 70
-
+else:
+    health = 100
+    print('Invalid choice. Defaulting to Warrior')
 
 print('Choose your difficulty: ')
 print('1. Easy')
@@ -58,9 +61,11 @@ elif difficulty_choice == '2':
 elif difficulty_choice == '3':
     health -= 20
     print('You have chosen Hard difficulty. Your health has been decreased by 20.')
-else:
+elif difficulty_choice == '4'
     health -= 20
     print('You have chosen Extreme difficulty. Your health has been decreased by 20 and enemies deal more damage.', 'Becareful, you have Permadeath.')
+else:
+    print('Invalid choice. Defaulting to Medium difficulty')
 
 player = {
     'name': name,

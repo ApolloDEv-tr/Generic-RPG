@@ -39,7 +39,8 @@ elif class_choice == '3':
 elif class_choice == '4':
     print('You have chosen Archer.', 'You are skilled in ranged combat and have high dexterity.')
     health = 90
-elif print('You have chosen Thief.', 'You are skilled in stealth and are more agile than otehr classes')
+elif class_choice == '5':
+    print('You have chosen Thief.', 'You are skilled in stealth and are more agile than otehr classes')
     health = 70
 else:
     health = 100
@@ -61,7 +62,7 @@ elif difficulty_choice == '2':
 elif difficulty_choice == '3':
     health -= 20
     print('You have chosen Hard difficulty. Your health has been decreased by 20.')
-elif difficulty_choice == '4'
+elif difficulty_choice == '4':
     health -= 20
     print('You have chosen Extreme difficulty. Your health has been decreased by 20 and enemies deal more damage.', 'Becareful, you have Permadeath.')
 else:

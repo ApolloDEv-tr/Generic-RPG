@@ -40,7 +40,7 @@ elif class_choice == '4':
     print('You have chosen Archer.', 'You are skilled in ranged combat and have high dexterity.')
     health = 90
 elif class_choice == '5':
-    print('You have chosen Thief.', 'You are skilled in stealth and are more agile than otehr classes')
+    print('You have chosen Thief.', 'You are skilled in stealth and are more agile than other classes')
     health = 70
 else:
     health = 100
